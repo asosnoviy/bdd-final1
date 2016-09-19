@@ -1,0 +1,3 @@
+[submodule "vendor/precommit1c"]
+	path = vendor/precommit1c
+	url = https://github.com/pumbaEO/precommit1c.git
