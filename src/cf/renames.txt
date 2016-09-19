@@ -11,7 +11,11 @@ Documents\Покупка\Forms\ФормаСписка.xml-->Documents\Покуп
 Documents\Покупка\Forms\ФормаДокумента\Ext\Form.xml-->Documents\Покупка\Forms\ФормаДокумента\Ext\Form.xml
 Documents\Покупка\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\Покупка\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\Покупка\Forms\ФормаСписка\Ext\Form.xml-->Documents\Покупка\Forms\ФормаСписка\Ext\Form.xml
+Documents\Продажа\Ext\ObjectModule.bsl-->Documents\Продажа\Ext\ObjectModule.bsl
+Documents\Продажа\Forms\ФормаДокумента.xml-->Documents\Продажа\Forms\ФормаДокумента.xml
 Documents\Продажа\Forms\ФормаСписка.xml-->Documents\Продажа\Forms\ФормаСписка.xml
+Documents\Продажа\Forms\ФормаДокумента\Ext\Form.xml-->Documents\Продажа\Forms\ФормаДокумента\Ext\Form.xml
+Documents\Продажа\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\Продажа\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml-->Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml
 Languages\Русский.xml-->Languages\Русский.xml
 Subsystems\Закупки.xml-->Subsystems\Закупки.xml
