@@ -5,7 +5,11 @@ Catalogs\Товары\Forms\ФормаСписка.xml-->Catalogs\Товары\F
 Catalogs\Товары\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Товары\Forms\ФормаСписка\Ext\Form.xml
 Documents\Покупка.xml-->Documents\Покупка.xml
 Documents\Продажа.xml-->Documents\Продажа.xml
+Documents\Покупка\Ext\ObjectModule.bsl-->Documents\Покупка\Ext\ObjectModule.bsl
+Documents\Покупка\Forms\ФормаДокумента.xml-->Documents\Покупка\Forms\ФормаДокумента.xml
 Documents\Покупка\Forms\ФормаСписка.xml-->Documents\Покупка\Forms\ФормаСписка.xml
+Documents\Покупка\Forms\ФормаДокумента\Ext\Form.xml-->Documents\Покупка\Forms\ФормаДокумента\Ext\Form.xml
+Documents\Покупка\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\Покупка\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\Покупка\Forms\ФормаСписка\Ext\Form.xml-->Documents\Покупка\Forms\ФормаСписка\Ext\Form.xml
 Documents\Продажа\Forms\ФормаСписка.xml-->Documents\Продажа\Forms\ФормаСписка.xml
 Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml-->Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml
