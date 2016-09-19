@@ -110,8 +110,10 @@
 			<Language>Русский</Language>
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>НСИ</Subsystem>
+			<Subsystem>Закупки</Subsystem>
 			<Catalog>Товары</Catalog>
 			<Document>Продажа</Document>
+			<Document>Покупка</Document>
 			<AccumulationRegister>Товары</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
