@@ -102,12 +102,17 @@
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousExtensionAndAddInCallUseMode>DontUse</SynchronousExtensionAndAddInCallUseMode>
-			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
+			<InterfaceCompatibilityMode>Version8_2EnableTaxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+			<Catalog>Товары</Catalog>
+			<Document>Продажа</Document>
+			<AccumulationRegister>Товары</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

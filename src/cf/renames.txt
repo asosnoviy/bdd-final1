@@ -1,2 +1,10 @@
 ﻿Configuration.xml-->Configuration.xml
+AccumulationRegisters\Товары.xml-->AccumulationRegisters\Товары.xml
+Catalogs\Товары.xml-->Catalogs\Товары.xml
+Documents\Продажа.xml-->Documents\Продажа.xml
+Documents\Продажа\Forms\ФормаСписка.xml-->Documents\Продажа\Forms\ФормаСписка.xml
+Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml-->Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml
 Languages\Русский.xml-->Languages\Русский.xml
+Subsystems\НСИ.xml-->Subsystems\НСИ.xml
+Subsystems\Продажи.xml-->Subsystems\Продажи.xml
+Subsystems\Продажи\Ext\CommandInterface.xml-->Subsystems\Продажи\Ext\CommandInterface.xml
