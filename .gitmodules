@@ -1,3 +1,10 @@
 [submodule "vendor/precommit1c"]
 	path = vendor/precommit1c
 	url = https://github.com/pumbaEO/precommit1c.git
+[submodule "vendor/vanessa-behavior"]
+	path = vendor/vanessa-behavior
+	url = https://github.com/silverbulleters/vanessa-behavior.git
+	branch = develop
+[submodule "vendor/vanessa-bdd-editor"]
+	path = vendor/vanessa-bdd-editor
+	url = git@github.com:silverbulleters/vanessa-bdd-editor.git
