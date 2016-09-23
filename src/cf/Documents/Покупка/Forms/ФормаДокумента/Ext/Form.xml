@@ -17,79 +17,184 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<Table name="Товары" id="7">
-			<Representation>List</Representation>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.Товары</DataPath>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="ТоварыКонтекстноеМеню" id="8"/>
-			<AutoCommandBar name="ТоварыКоманднаяПанель" id="9"/>
-			<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="10"/>
-			<SearchStringAddition name="ТоварыСтрокаПоиска" id="11">
-				<Source>
-					<lf:elementId>7</lf:elementId>
-					<lf:additionId>0</lf:additionId>
-				</Source>
-				<ContextMenu name="ТоварыСтрокаПоискаКонтекстноеМеню" id="12"/>
-				<ExtendedTooltip name="ТоварыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="ТоварыСостояниеПросмотра" id="14">
-				<Source>
-					<lf:elementId>7</lf:elementId>
-					<lf:additionId>1</lf:additionId>
-				</Source>
-				<ContextMenu name="ТоварыСостояниеПросмотраКонтекстноеМеню" id="15"/>
-				<ExtendedTooltip name="ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="ТоварыУправлениеПоиском" id="17">
-				<Source>
-					<lf:elementId>7</lf:elementId>
-					<lf:additionId>2</lf:additionId>
-				</Source>
-				<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="18"/>
-				<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
-			</SearchControlAddition>
+		<Pages name="ГруппаТоварыАкции" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа товары акции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа товары акции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаТоварыАкцииРасширеннаяПодсказка" id="36"/>
 			<ChildItems>
-				<LabelField name="ТоварыНомерСтроки" id="20">
-					<DataPath>Объект.Товары.LineNumber</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="21"/>
-					<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="22"/>
-				</LabelField>
-				<InputField name="ТоварыТовар" id="23">
-					<DataPath>Объект.Товары.Товар</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="25"/>
-				</InputField>
-				<InputField name="ТоварыЦена" id="26">
-					<DataPath>Объект.Товары.Цена</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="28"/>
-					<Events>
-						<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="ТоварыКоличество" id="29">
-					<DataPath>Объект.Товары.Количество</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="31"/>
-					<Events>
-						<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="ТоварыСумма" id="32">
-					<DataPath>Объект.Товары.Сумма</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="34"/>
-				</InputField>
+				<Page name="ГруппаТовары" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товары</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа товары</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаТоварыРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<Table name="Товары" id="7">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Товары</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТоварыКонтекстноеМеню" id="8"/>
+							<AutoCommandBar name="ТоварыКоманднаяПанель" id="9"/>
+							<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="10"/>
+							<SearchStringAddition name="ТоварыСтрокаПоиска" id="11">
+								<Source>
+									<lf:elementId>7</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="ТоварыСтрокаПоискаКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ТоварыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТоварыСостояниеПросмотра" id="14">
+								<Source>
+									<lf:elementId>7</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="ТоварыСостояниеПросмотраКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТоварыУправлениеПоиском" id="17">
+								<Source>
+									<lf:elementId>7</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТоварыНомерСтроки" id="20">
+									<DataPath>Объект.Товары.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="22"/>
+								</LabelField>
+								<InputField name="ТоварыТовар" id="23">
+									<DataPath>Объект.Товары.Товар</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="25"/>
+								</InputField>
+								<InputField name="ТоварыЦена" id="26">
+									<DataPath>Объект.Товары.Цена</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="28"/>
+									<Events>
+										<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТоварыКоличество" id="29">
+									<DataPath>Объект.Товары.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="31"/>
+									<Events>
+										<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТоварыСумма" id="32">
+									<DataPath>Объект.Товары.Сумма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="34"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаАкции" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Акции</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа акции</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаАкцииРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<Table name="Акции" id="41">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Акции</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="АкцииКонтекстноеМеню" id="42"/>
+							<AutoCommandBar name="АкцииКоманднаяПанель" id="43"/>
+							<ExtendedTooltip name="АкцииРасширеннаяПодсказка" id="44"/>
+							<SearchStringAddition name="АкцииСтрокаПоиска" id="45">
+								<Source>
+									<lf:elementId>41</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="АкцииСтрокаПоискаКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="АкцииСтрокаПоискаРасширеннаяПодсказка" id="47"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АкцииСостояниеПросмотра" id="48">
+								<Source>
+									<lf:elementId>41</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="АкцииСостояниеПросмотраКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="АкцииСостояниеПросмотраРасширеннаяПодсказка" id="50"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АкцииУправлениеПоиском" id="51">
+								<Source>
+									<lf:elementId>41</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="АкцииУправлениеПоискомКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="АкцииУправлениеПоискомРасширеннаяПодсказка" id="53"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="АкцииНомерСтроки" id="54">
+									<DataPath>Объект.Акции.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АкцииНомерСтрокиКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="АкцииНомерСтрокиРасширеннаяПодсказка" id="56"/>
+								</LabelField>
+								<InputField name="АкцииАкция" id="57">
+									<DataPath>Объект.Акции.Акция</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АкцииАкцияКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="АкцииАкцияРасширеннаяПодсказка" id="59"/>
+								</InputField>
+								<InputField name="АкцииСумма" id="60">
+									<DataPath>Объект.Акции.Сумма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="АкцииСуммаКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="АкцииСуммаРасширеннаяПодсказка" id="62"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 			</ChildItems>
-		</Table>
+		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
