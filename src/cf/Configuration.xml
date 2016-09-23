@@ -113,6 +113,7 @@
 			<Subsystem>Закупки</Subsystem>
 			<Subsystem>Маркетинг</Subsystem>
 			<Subsystem>Финансы</Subsystem>
+			<Role>ПолныеПрава</Role>
 			<Catalog>Товары</Catalog>
 			<Catalog>Акции</Catalog>
 			<Catalog>Сотрудники</Catalog>

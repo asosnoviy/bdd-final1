@@ -24,6 +24,8 @@ Documents\РасчетЗарплаты\Forms\ФормаДокумента.xml-->
 Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form.xml-->Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form.xml
 Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Languages\Русский.xml-->Languages\Русский.xml
+Roles\ПолныеПрава.xml-->Roles\ПолныеПрава.xml
+Roles\ПолныеПрава\Ext\Rights.xml-->Roles\ПолныеПрава\Ext\Rights.xml
 Subsystems\Закупки.xml-->Subsystems\Закупки.xml
 Subsystems\Маркетинг.xml-->Subsystems\Маркетинг.xml
 Subsystems\НСИ.xml-->Subsystems\НСИ.xml
