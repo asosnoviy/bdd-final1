@@ -111,7 +111,9 @@
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Закупки</Subsystem>
+			<Subsystem>Маркетинг</Subsystem>
 			<Catalog>Товары</Catalog>
+			<Catalog>Акции</Catalog>
 			<Document>Продажа</Document>
 			<Document>Покупка</Document>
 			<AccumulationRegister>Товары</AccumulationRegister>

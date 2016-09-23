@@ -1,5 +1,6 @@
 ﻿Configuration.xml-->Configuration.xml
 AccumulationRegisters\Товары.xml-->AccumulationRegisters\Товары.xml
+Catalogs\Акции.xml-->Catalogs\Акции.xml
 Catalogs\Товары.xml-->Catalogs\Товары.xml
 Catalogs\Товары\Forms\ФормаСписка.xml-->Catalogs\Товары\Forms\ФормаСписка.xml
 Catalogs\Товары\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Товары\Forms\ФормаСписка\Ext\Form.xml
@@ -19,6 +20,7 @@ Documents\Продажа\Forms\ФормаДокумента\Ext\Form\Module.bsl-
 Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml-->Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml
 Languages\Русский.xml-->Languages\Русский.xml
 Subsystems\Закупки.xml-->Subsystems\Закупки.xml
+Subsystems\Маркетинг.xml-->Subsystems\Маркетинг.xml
 Subsystems\НСИ.xml-->Subsystems\НСИ.xml
 Subsystems\Продажи.xml-->Subsystems\Продажи.xml
 Subsystems\Закупки\Ext\CommandInterface.xml-->Subsystems\Закупки\Ext\CommandInterface.xml
