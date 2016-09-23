@@ -112,10 +112,13 @@
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Закупки</Subsystem>
 			<Subsystem>Маркетинг</Subsystem>
+			<Subsystem>Финансы</Subsystem>
 			<Catalog>Товары</Catalog>
 			<Catalog>Акции</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Document>Продажа</Document>
 			<Document>Покупка</Document>
+			<Document>РасчетЗарплаты</Document>
 			<AccumulationRegister>Товары</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="Начисления" id="7">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Начисления</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НачисленияКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="НачисленияКоманднаяПанель" id="9">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="Заполнить" id="32">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Заполнить</CommandName>
+						<Parameter xsi:nil="true"/>
+						<ExtendedTooltip name="ЗаполнитьРасширеннаяПодсказка" id="33"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НачисленияРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="НачисленияСтрокаПоиска" id="11">
+				<Source>
+					<lf:elementId>7</lf:elementId>
+					<lf:additionId>0</lf:additionId>
+				</Source>
+				<ContextMenu name="НачисленияСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="НачисленияСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НачисленияСостояниеПросмотра" id="14">
+				<Source>
+					<lf:elementId>7</lf:elementId>
+					<lf:additionId>1</lf:additionId>
+				</Source>
+				<ContextMenu name="НачисленияСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="НачисленияСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НачисленияУправлениеПоиском" id="17">
+				<Source>
+					<lf:elementId>7</lf:elementId>
+					<lf:additionId>2</lf:additionId>
+				</Source>
+				<ContextMenu name="НачисленияУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="НачисленияУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="НачисленияНомерСтроки" id="20">
+					<DataPath>Объект.Начисления.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="НачисленияНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="НачисленияСотрудник" id="23">
+					<DataPath>Объект.Начисления.Сотрудник</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияСотрудникКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="НачисленияСотрудникРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="НачисленияОклад" id="34">
+					<DataPath>Объект.Начисления.Оклад</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияОкладКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="НачисленияОкладРасширеннаяПодсказка" id="36"/>
+				</InputField>
+				<InputField name="НачисленияОтработано" id="26">
+					<DataPath>Объект.Начисления.Отработано</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияОтработаноКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="НачисленияОтработаноРасширеннаяПодсказка" id="28"/>
+					<Events>
+						<Event name="OnChange">НачисленияОтработаноПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="НачисленияНачисленно" id="29">
+					<DataPath>Объект.Начисления.Начисленно</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияНачисленноКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="НачисленияНачисленноРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.РасчетЗарплаты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="КоличествоРабочихДней" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество рабочих дней</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Заполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заполнить</Action>
+		</Command>
+	</Commands>
+</Form>
