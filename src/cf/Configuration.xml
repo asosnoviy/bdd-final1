@@ -102,7 +102,7 @@
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousExtensionAndAddInCallUseMode>DontUse</SynchronousExtensionAndAddInCallUseMode>
-			<InterfaceCompatibilityMode>Version8_2EnableTaxi</InterfaceCompatibilityMode>
+			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
@@ -114,13 +114,17 @@
 			<Subsystem>Маркетинг</Subsystem>
 			<Subsystem>Финансы</Subsystem>
 			<Role>ПолныеПрава</Role>
+			<Role>ПросмотрОтчетаПоАкциям</Role>
+			<Role>БазовыеПрава</Role>
 			<Catalog>Товары</Catalog>
 			<Catalog>Акции</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Document>Продажа</Document>
 			<Document>Покупка</Document>
 			<Document>РасчетЗарплаты</Document>
+			<Report>ОтчетПоАкциям</Report>
 			<AccumulationRegister>Товары</AccumulationRegister>
+			<AccumulationRegister>ПродажиПоАкциям</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

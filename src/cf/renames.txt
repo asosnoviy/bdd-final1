@@ -1,4 +1,5 @@
 ﻿Configuration.xml-->Configuration.xml
+AccumulationRegisters\ПродажиПоАкциям.xml-->AccumulationRegisters\ПродажиПоАкциям.xml
 AccumulationRegisters\Товары.xml-->AccumulationRegisters\Товары.xml
 Catalogs\Акции.xml-->Catalogs\Акции.xml
 Catalogs\Сотрудники.xml-->Catalogs\Сотрудники.xml
@@ -24,8 +25,15 @@ Documents\РасчетЗарплаты\Forms\ФормаДокумента.xml-->
 Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form.xml-->Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form.xml
 Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Languages\Русский.xml-->Languages\Русский.xml
+Reports\ОтчетПоАкциям.xml-->Reports\ОтчетПоАкциям.xml
+Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
+Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
+Roles\БазовыеПрава.xml-->Roles\БазовыеПрава.xml
 Roles\ПолныеПрава.xml-->Roles\ПолныеПрава.xml
+Roles\ПросмотрОтчетаПоАкциям.xml-->Roles\ПросмотрОтчетаПоАкциям.xml
+Roles\БазовыеПрава\Ext\Rights.xml-->Roles\БазовыеПрава\Ext\Rights.xml
 Roles\ПолныеПрава\Ext\Rights.xml-->Roles\ПолныеПрава\Ext\Rights.xml
+Roles\ПросмотрОтчетаПоАкциям\Ext\Rights.xml-->Roles\ПросмотрОтчетаПоАкциям\Ext\Rights.xml
 Subsystems\Закупки.xml-->Subsystems\Закупки.xml
 Subsystems\Маркетинг.xml-->Subsystems\Маркетинг.xml
 Subsystems\НСИ.xml-->Subsystems\НСИ.xml
