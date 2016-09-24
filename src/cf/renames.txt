@@ -6,6 +6,9 @@ Catalogs\Сотрудники.xml-->Catalogs\Сотрудники.xml
 Catalogs\Товары.xml-->Catalogs\Товары.xml
 Catalogs\Товары\Forms\ФормаСписка.xml-->Catalogs\Товары\Forms\ФормаСписка.xml
 Catalogs\Товары\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Товары\Forms\ФормаСписка\Ext\Form.xml
+CommonModules\СлужебныйМодуль.xml-->CommonModules\СлужебныйМодуль.xml
+CommonModules\СлужебныйМодуль\Ext\Module.bsl-->CommonModules\СлужебныйМодуль\Ext\Module.bsl
+Constants\АдминистраторСоздан.xml-->Constants\АдминистраторСоздан.xml
 Documents\Покупка.xml-->Documents\Покупка.xml
 Documents\Продажа.xml-->Documents\Продажа.xml
 Documents\РасчетЗарплаты.xml-->Documents\РасчетЗарплаты.xml
@@ -24,6 +27,8 @@ Documents\Продажа\Forms\ФормаСписка\Ext\Form.xml-->Documents\�
 Documents\РасчетЗарплаты\Forms\ФормаДокумента.xml-->Documents\РасчетЗарплаты\Forms\ФормаДокумента.xml
 Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form.xml-->Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form.xml
 Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl
+Ext\ManagedApplicationModule.bsl-->Ext\ManagedApplicationModule.bsl
+Ext\SessionModule.bsl-->Ext\SessionModule.bsl
 Languages\Русский.xml-->Languages\Русский.xml
 Reports\ОтчетПоАкциям.xml-->Reports\ОтчетПоАкциям.xml
 Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных.xml

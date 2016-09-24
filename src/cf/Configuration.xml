@@ -116,6 +116,8 @@
 			<Role>ПолныеПрава</Role>
 			<Role>ПросмотрОтчетаПоАкциям</Role>
 			<Role>БазовыеПрава</Role>
+			<CommonModule>СлужебныйМодуль</CommonModule>
+			<Constant>АдминистраторСоздан</Constant>
 			<Catalog>Товары</Catalog>
 			<Catalog>Акции</Catalog>
 			<Catalog>Сотрудники</Catalog>
