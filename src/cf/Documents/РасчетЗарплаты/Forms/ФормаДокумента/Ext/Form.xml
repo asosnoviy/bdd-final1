@@ -99,6 +99,18 @@
 					<ContextMenu name="НачисленияНачисленноКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="НачисленияНачисленноРасширеннаяПодсказка" id="31"/>
 				</InputField>
+				<InputField name="НачисленияПремия" id="37">
+					<DataPath>Объект.Начисления.Премия</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияПремияКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="НачисленияПремияРасширеннаяПодсказка" id="39"/>
+				</InputField>
+				<InputField name="НачисленияВсего" id="40">
+					<DataPath>Объект.Начисления.Всего</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачисленияВсегоКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="НачисленияВсегоРасширеннаяПодсказка" id="42"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

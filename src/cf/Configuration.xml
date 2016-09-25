@@ -127,6 +127,8 @@
 			<Report>ОтчетПоАкциям</Report>
 			<Report>Себестоимость</Report>
 			<DataProcessor>РасчетСебестоимости</DataProcessor>
+			<InformationRegister>ПланПродаж</InformationRegister>
+			<InformationRegister>ПремииСотрудников</InformationRegister>
 			<AccumulationRegister>Товары</AccumulationRegister>
 			<AccumulationRegister>ПродажиПоАкциям</AccumulationRegister>
 			<AccumulationRegister>Себестоимость</AccumulationRegister>

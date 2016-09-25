@@ -20,6 +20,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Себестоимость</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.Себестоимость</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РасчетСебестоимости</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПремииСотрудников</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

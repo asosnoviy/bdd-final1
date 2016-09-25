@@ -34,6 +34,8 @@ Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Fo
 Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\РасчетЗарплаты\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Ext\ManagedApplicationModule.bsl-->Ext\ManagedApplicationModule.bsl
 Ext\SessionModule.bsl-->Ext\SessionModule.bsl
+InformationRegisters\ПланПродаж.xml-->InformationRegisters\ПланПродаж.xml
+InformationRegisters\ПремииСотрудников.xml-->InformationRegisters\ПремииСотрудников.xml
 Languages\Русский.xml-->Languages\Русский.xml
 Reports\ОтчетПоАкциям.xml-->Reports\ОтчетПоАкциям.xml
 Reports\Себестоимость.xml-->Reports\Себестоимость.xml

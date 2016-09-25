@@ -47,6 +47,11 @@
 			<ContextMenu name="АкцияКонтекстноеМеню" id="36"/>
 			<ExtendedTooltip name="АкцияРасширеннаяПодсказка" id="37"/>
 		</InputField>
+		<InputField name="Продавец" id="40">
+			<DataPath>Объект.Продавец</DataPath>
+			<ContextMenu name="ПродавецКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ПродавецРасширеннаяПодсказка" id="42"/>
+		</InputField>
 		<Table name="Товары" id="7">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>

@@ -17,6 +17,11 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="Продавец" id="63">
+			<DataPath>1/0:9b29a438-3cc2-4b3c-b213-6b5ce9f7d1cc</DataPath>
+			<ContextMenu name="ПродавецКонтекстноеМеню" id="64"/>
+			<ExtendedTooltip name="ПродавецРасширеннаяПодсказка" id="65"/>
+		</InputField>
 		<Pages name="ГруппаТоварыАкции" id="35">
 			<Title>
 				<v8:item>
