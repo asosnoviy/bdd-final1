@@ -17,6 +17,9 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасчетЗарплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Себестоимость</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Себестоимость</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РасчетСебестоимости</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
