@@ -1,5 +1,6 @@
 ﻿Configuration.xml-->Configuration.xml
 AccumulationRegisters\ПродажиПоАкциям.xml-->AccumulationRegisters\ПродажиПоАкциям.xml
+AccumulationRegisters\Себестоимость.xml-->AccumulationRegisters\Себестоимость.xml
 AccumulationRegisters\Товары.xml-->AccumulationRegisters\Товары.xml
 Catalogs\Акции.xml-->Catalogs\Акции.xml
 Catalogs\Сотрудники.xml-->Catalogs\Сотрудники.xml
@@ -9,6 +10,10 @@ Catalogs\Товары\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\То�
 CommonModules\СлужебныйМодуль.xml-->CommonModules\СлужебныйМодуль.xml
 CommonModules\СлужебныйМодуль\Ext\Module.bsl-->CommonModules\СлужебныйМодуль\Ext\Module.bsl
 Constants\АдминистраторСоздан.xml-->Constants\АдминистраторСоздан.xml
+DataProcessors\РасчетСебестоимости.xml-->DataProcessors\РасчетСебестоимости.xml
+DataProcessors\РасчетСебестоимости\Forms\Форма.xml-->DataProcessors\РасчетСебестоимости\Forms\Форма.xml
+DataProcessors\РасчетСебестоимости\Forms\Форма\Ext\Form.xml-->DataProcessors\РасчетСебестоимости\Forms\Форма\Ext\Form.xml
+DataProcessors\РасчетСебестоимости\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\РасчетСебестоимости\Forms\Форма\Ext\Form\Module.bsl
 Documents\Покупка.xml-->Documents\Покупка.xml
 Documents\Продажа.xml-->Documents\Продажа.xml
 Documents\РасчетЗарплаты.xml-->Documents\РасчетЗарплаты.xml
@@ -31,8 +36,11 @@ Ext\ManagedApplicationModule.bsl-->Ext\ManagedApplicationModule.bsl
 Ext\SessionModule.bsl-->Ext\SessionModule.bsl
 Languages\Русский.xml-->Languages\Русский.xml
 Reports\ОтчетПоАкциям.xml-->Reports\ОтчетПоАкциям.xml
+Reports\Себестоимость.xml-->Reports\Себестоимость.xml
 Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
 Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\ОтчетПоАкциям\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
+Reports\Себестоимость\Templates\ОсновнаяСхемаКомпоновкиДанных.xml-->Reports\Себестоимость\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
+Reports\Себестоимость\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml-->Reports\Себестоимость\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
 Roles\БазовыеПрава.xml-->Roles\БазовыеПрава.xml
 Roles\ПолныеПрава.xml-->Roles\ПолныеПрава.xml
 Roles\ПросмотрОтчетаПоАкциям.xml-->Roles\ПросмотрОтчетаПоАкциям.xml

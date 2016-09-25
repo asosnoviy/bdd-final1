@@ -125,8 +125,11 @@
 			<Document>Покупка</Document>
 			<Document>РасчетЗарплаты</Document>
 			<Report>ОтчетПоАкциям</Report>
+			<Report>Себестоимость</Report>
+			<DataProcessor>РасчетСебестоимости</DataProcessor>
 			<AccumulationRegister>Товары</AccumulationRegister>
 			<AccumulationRegister>ПродажиПоАкциям</AccumulationRegister>
+			<AccumulationRegister>Себестоимость</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
