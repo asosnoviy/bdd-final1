@@ -1,7 +1,7 @@
 ﻿#encoding: utf-8
 #language: ru
 @ExportScenarios
-#@IgnoreOnCIMainBuild
+@IgnoreOnCIMainBuild
 
 Функционал: Работа с пользователями конфигурации
     Как программист
